@@ -1,0 +1,174 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    
+    background: #000;
+
+    color: #fff;
+}
+
+a, a:link, a:visited, a:active, a:hover {
+    color: #FFFF00;
+    text-decoration: none;
+} a:hover {
+    font-weight: bold;
+}
+
+#container {
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+*::selection {
+    background-color: #FFFF00;
+    color: #000;
+}
+
+*::-moz-selection {
+    background-color: #FFFF00;
+    color: #000;
+}
+
+
+
+/* TRASH BIN + WORKS CITED */
+
+.trashBin, .worksCited {
+    width: 500px;
+    
+    margin: 0 auto;
+}
+
+/* end of TRASH BIN */
+
+
+
+/* BACK TO BIN */
+
+.back {
+    margin: 0;
+}
+
+/* end of BACK TO BIN */
+
+
+
+/* DESCRIPTION */
+
+.description {
+    width: 1200px;
+    
+    margin: 0 auto;
+    padding: 19px 0 19px 0;
+}
+
+/* end of DESCRIPTION */
+
+
+
+/* TYPING CODE */
+
+.typed-cursor{
+    display: none;
+    
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+/* @keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+} */
+
+.codeContainer {
+    position: relative;
+    
+    width: 900px;
+    height: 90%;
+    
+    margin: 0 auto;
+    
+    overflow: auto;
+}
+
+.codeBox {
+    display: inline-block;
+    
+    padding: 0 0 0 38px;
+    
+    line-height: 19px;
+    white-space: pre;
+}
+
+.codeLineNumbers {
+    display: inline-block;
+    
+    position: absolute;
+
+    height: 100%;
+    
+    font-family: monospace;
+    text-align: center;
+    line-height: 19px;
+    
+    overflow: hidden;
+}
+
+a.commented,
+a:link.commented,
+a:visited.commented,
+a:active.commented,
+a:hover.commented {
+    font-weight: bold;
+    background-color: #FFFF00;
+    color: #000;
+}
+
+/* end of TYPING CODE */
+
+
+
+/* COMMENTS */
+
+.comments {
+    width: 300px;
+}
+
+.commentNumber {
+    display: inline-block;
+    
+    position: absolute;
+    
+    font-weight: bold;
+}
+
+.commentText {
+    display: inline-block;
+    
+    margin: -1em 0 0 0;
+    padding: 0 0 38px 38px;
+    
+    width: 270px;
+    
+    text-align: justify;
+}
+
+/* end of COMMENTS */
