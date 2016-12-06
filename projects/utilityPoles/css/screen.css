@@ -1,0 +1,200 @@
+@charset "UTF-8";
+
+html, body {
+    margin: 0;
+    padding: 0;
+    
+    width: 100%;
+    height: 100%;
+    
+    background: #000;
+    
+    font-family: 'Varela Round', Arial, sans-serif;
+    color: #fff;
+}
+
+a,
+a:link,
+a:hover,
+a:active,
+a:visited {
+    color: #000;
+    text-decoration: none;
+    background-color: #ffff00;
+}
+
+a.imgCredit,
+a.imgCredit:link,
+a.imgCredit:hover,
+a.imgCredit:active,
+a.imgCredit:visited {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    
+    margin: 0 15px 10px 0;
+    padding: 15px 0 0 0;
+    
+    font-size: 30px;
+    line-height: 0px;
+}
+
+a.txtCredit,
+a.txtCredit:link,
+a.txtCredit:hover,
+a.txtCredit:active,
+a.txtCredit:visited {
+    margin: 0;
+    padding: 0;
+    
+    font-size: 19px;
+    line-height: 0;
+}
+
+*::selection {
+    color: #000;
+    background: #ffff00;
+} *::-moz-selection {
+    color: #000;
+    background: #ffff00;
+}
+
+#container {
+    position: relative;
+    top: 0;
+    left: 0;
+    
+    margin: 0;
+    padding: 0;
+        
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    
+    margin: 0;
+    padding: 15px;
+    
+    width: 500px;
+    max-height: 100%;
+    
+    font-size: 19px;
+    
+    background-color: #000;
+    
+    overflow: auto;
+}
+
+
+
+/* INDEX */
+
+.index_background {
+    position: absolute;
+    top: 10%;
+    left: 25%;
+} .index_background img {
+    width: 800px;
+}
+
+.title {
+    position: absolute;
+    top: 65%;
+    left: 20%;
+    
+    margin: 0;
+    padding: 3px;
+    
+    width: auto;
+    height: auto;
+    
+    font-size: 39px;
+    font-weight: bold;
+    color: #000;
+    
+    background-color: #ffff00;
+    
+    overflow: auto;
+}
+
+/* end of INDEX */
+
+
+
+/* INTRO */
+
+.intro_img1 {
+    position: absolute;
+    top: 0%;
+    left: 25%;
+} .intro_img1 img {
+    width: 640px;
+}
+
+/* end of INTRO */
+
+
+
+/* TERMINOLOGY */
+
+.terminology_img1 {
+    position: absolute;
+    top: 10%;
+    left: 25%;
+} .terminology_img1 img {
+    width: 800px;
+}
+
+/* end of TERMINOLOGY */
+
+
+
+/* STRUCTURE */
+
+.structure_img1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+} .structure_img1 img {
+    width: 600px;
+}
+
+/* end of STRUCTURE */
+
+
+
+/* ELECTRIC POWER DISTRIBUTION */
+
+.electricPowerDistribution_img1 {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+} .electricPowerDistribution_img1 img {
+    width: 600px;
+}
+
+/* end of ELECTRIC POWER DISTRIBUTION */
+
+
+
+/* FUNCTION */
+
+.function_img1 {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+} .function_img1 img {
+    width: 600px;
+}
+
+/* end of FUNCTION */
